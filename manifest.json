@@ -1,0 +1,11 @@
+{
+    "name": "omegle-tools",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["*://*.omegle.com/*"],
+            "js": ["index.js"]
+        }
+    ]
+}
